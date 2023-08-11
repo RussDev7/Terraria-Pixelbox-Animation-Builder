@@ -19,6 +19,9 @@ mkdir ".\release"
 Rem | Copy Over Items
 xcopy /E /Y ".\src\PictureToBinary\bin\x64\Release" ".\release\%filename%\"
 
+Rem | Extract World File
+powershell.exe -nologo -noprofile -command "Expand-Archive -Path ".\wld\FaultyXOR_ROM-120x68-Animation.zip" -DestinationPath ".\release""
+
 Rem | Clean Up Files
 del /f /q /s ".\release\*.pdb"
 del /f /q /s ".\release\*.config"
