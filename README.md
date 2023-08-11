@@ -18,6 +18,7 @@ Steps:
 
 
 **Step2: Converting Image Sequence To Schematic**
+
 Using the tool `PictureToBinary()` its possible to easily convert all the images to a binary sequance of 1 and 0s. Simply input the sequance, select an output file location, and click convert. Drop this file in your Terraria directory `\steamapps\common\Terraria\#romupload`. 
 
 
