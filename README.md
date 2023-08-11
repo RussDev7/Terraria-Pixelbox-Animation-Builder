@@ -8,7 +8,7 @@ Notes:
  - ROM has a max of 3000 frames.
  - Map has a built FPS settings - 24, 30, 60, 120.
 
-
+Steps:
 1) Download Original Video - https://yt1s.com/en5
 2) Calcualte what FPS is required to fit within 3000 frames - https://www.zapstudio.net/framecalc/
 3) Reduce FPS of the video - https://www.video2edit.com/convert-to-video
