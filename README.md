@@ -17,6 +17,7 @@ Steps:
 6) Bulk Convert To Black/White Using Mono Mixer & Adjust - https://www.xnview.com/en/xnconvert/
 
 **Step2: Programing video to ROM**
+
 Now that we have created a map with every possible tile and wall, its time we attempt to try and read the colors just as the game would. To do this, I will be using an open source tool called [DnSpy](https://github.com/dnSpy/dnSpy) to edit the games compiled code. Using one of the games functions called `ProcessIncomingMessage()` I'm able to add some code onto this that will be able to interpret commands. We will add two commands; `/arom` for programing, and `/delrom` to remove it.
  
 <details><summary>Show Code</summary>
