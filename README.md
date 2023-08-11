@@ -280,4 +280,5 @@ namespace Terraria.Chat
 </details>
 
 **Step4: Accelerating The Wiring**
+
 Due to the way Terraria logic system is, larger wiring builds will freeze your game each time you power them up. To fix this, we can use a mod called the [Terraria Circuit Preprocessing Accelerator](https://github.com/RussDev7/TerrariaCircuitPreprocessingAccelerator-1.4.4.9) to pre-process the wiring and prevent lagging while still maintaining the vanilla logic system.
