@@ -3,13 +3,17 @@
 [![Animated Shrek](https://i.imgur.com/QIHeAA8.png)](https://www.youtube.com/watch?v=EVP2zqgrtzg "Terraria But Its Animated Shrek - Click to Watch!")
 
  **Step1: Converting a video**
-Badapple 24x24 6134 Frames JPG | Convert Steps:
+
+Notes:
+ - ROM has a max of 3000 frames.
+ - Map has a built FPS settings - 24, 30, 60, 120.
+
 1) Download Original Video - https://yt1s.com/en5
-2) Reduce FPS From 30 To 28 - https://www.video2edit.com/convert-to-video
-3) Convert Video To 1:1 Ratio - https://www.onlineconverter.com/resize-video
-4) Reduce Video To 24x24 - https://www.onlineconverter.com/resize-video
+2) Calcualte what FPS is required to fit within 3000 frames - https://www.zapstudio.net/framecalc/
+3) Reduce FPS of the video - https://www.video2edit.com/convert-to-video
+4) Reduce Video To 120x68 - https://www.videosoftdev.com/ or https://www.onlineconverter.com/resize-video
 5) Convert To Image Sequence - https://mconverter.eu/convert/mp4/png/
-6) Bulk Convert To Black/White Using Mono Mixer & Adjust - https://ediker.com/ - /xnconvert/
+6) Bulk Convert To Black/White Using Mono Mixer & Adjust - https://www.xnview.com/en/xnconvert/
 
  **Step2: Programing video to ROM**
  Now that we have created a map with every possible tile and wall, its time we attempt to try and read the colors just as the game would. To do this, I will be using an open source tool called [DnSpy](https://github.com/dnSpy/dnSpy) to edit the games compiled code. Using one of the games functions called `ProcessIncomingMessage()` I'm able to add some code onto this that will be able to interpret commands. We will add two commands; `/arom` for programing, and `/delrom` to remove it.
