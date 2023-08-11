@@ -16,8 +16,10 @@ Steps:
 5) Convert To Image Sequence - https://mconverter.eu/convert/mp4/png/
 6) Bulk Convert To Black/White Using Mono Mixer & Adjust - https://www.xnview.com/en/xnconvert/
 
+
 **Step2: Converting Image Sequence To Schematic**
 Using the tool `PictureToBinary()` its possible to easily convert all the images to a binary sequance of 1 and 0s. Simply input the sequance, select an output file location, and click convert. Drop this file in your Terraria directory `\steamapps\common\Terraria\#romupload`. 
+
 
 **Step3: Programing video to ROM**
 
